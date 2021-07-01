@@ -17,7 +17,6 @@ def create_cook_book(file_name):
                 ingredient_name = word[0]
                 quantity = int(word[1])
                 measure = word[2]
-                ing_dict = [{'ingredient_name': ingredient_name, 'quantity': quantity, 'measure': measure}]
                 cook_book[cook_name].append({'ingredient_name': ingredient_name, 'quantity': quantity, 'measure': measure})
     return cook_book
 
